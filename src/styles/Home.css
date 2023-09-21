@@ -1,0 +1,35 @@
+.home{
+    font-size: 2.8rem;
+    color: var(--darkest-color);
+    text-transform: uppercase;
+    display: flex;
+    animation: opacity 10s;
+    transition: 1s all ease;
+
+}
+.content h1{
+    margin-top: 6rem;
+}
+
+.content img{
+    justify-content: left;
+    margin-top: 2rem;
+    margin-left: -13rem;
+}
+@keyframes opacity{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 25;
+    }
+    50%{
+        opacity: 50;
+    }
+    75%{
+        opacity: 75;
+    }
+    100%{
+        opacity: 100;
+    }
+}
